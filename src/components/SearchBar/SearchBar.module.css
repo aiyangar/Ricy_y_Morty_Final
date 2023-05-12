@@ -1,0 +1,19 @@
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.contenedor {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(
+    var(--rotate),
+    #5ddcff,
+    #3c67e3 43%,
+    #4e00c2);
+  padding: 5px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
